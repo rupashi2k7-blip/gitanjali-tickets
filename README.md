@@ -81,6 +81,9 @@ keytool -genkeypair -keystore my-release.jks -alias gitanjali \
 
 ## Install
 
+A built, signed APK is kept at [`dist/GitanjaliTickets.apk`](dist/GitanjaliTickets.apk),
+or rebuild it yourself with `./build.sh`.
+
 1. Copy `GitanjaliTickets.apk` to the phone.
 2. Open it; allow "Install unknown apps" for the file manager / browser when
    asked.
